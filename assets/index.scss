@@ -1,0 +1,20 @@
+:root{
+    --app-space:12px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  html {
+    
+    font-family: 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, -apple-system,
+      BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+html, body {
+    padding: 0;
+    margin:0;
+}
+.innerGrid{
+    max-width: 1280px;
+    margin: 0 auto;
+}
