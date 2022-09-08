@@ -78,8 +78,8 @@
 <style lang="scss" scoped>
     .mobileIcon{
         position: fixed;
-        top: 20px;
-        right: 20px;
+        top: 10px;
+        right: 24px;
         z-index: 9999;
     }
     .menuLogo{
