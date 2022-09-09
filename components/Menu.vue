@@ -1,9 +1,13 @@
 <template>
     <div class="menuContainer">
         <Drawer :is-open="isDrawerOpen" background-color="#fff" max-width="90%" :speed="500" @close="closeDrawer">
+            <div class="menuHeader">
+
             <Logo class="menuLogo" />
             <div class="siteTitle">
-                KANAWA COMPANY LIMITED
+                嘉麗華集團 <br />
+                Kanawa Group
+            </div>
             </div>
             <div v-for="item in menuItems" :key="item.label" class="menuItem" @click="itemClick(item)">
                 {{ item.label }}
@@ -76,6 +80,16 @@
 </script>
 
 <style lang="scss" scoped>
+
+    .menuHeader{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .siteTitle{
+        margin-left: 12px;
+    }
     .mobileIcon{
         position: fixed;
         top: 10px;

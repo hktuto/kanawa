@@ -13,7 +13,7 @@
 <style lang="scss" scoped>
     .content{
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         overflow: hidden;
         position: relative;
         display: grid;
@@ -22,12 +22,16 @@
     }
     .swiperContainer{
         width: 100vw;
+        // aspect-ratio: 16 / 9;
+        @media (max-width: 640px){
+            // aspect-ratio: 8 / 16;
+        }
     }
     .headerContainer{
         width:100%;
     }
     .footerContainer{
-        position: absolute;
+        position: fixed;
         left:0;
         bottom:0;
         width:100%;

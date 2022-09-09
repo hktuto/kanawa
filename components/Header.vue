@@ -4,7 +4,8 @@
 
             <Logo class="headerLogo" />
             <div class="siteTitle">
-                KANAWA COMPANY LIMITED
+                嘉麗華集團 <br />
+                Kanawa Group
             </div>
         </div>
         <!--  -->
@@ -42,13 +43,10 @@
     }
     .siteTitle{
         margin-left: 12px;
-        text-align: center;
-        font-size: clamp(.8rem, -0.875rem + 8.333vw, 1rem);
+        text-align: left;
+        font-size: clamp(0.6rem, -0.875rem + 8.333vw, 1rem);
         font-weight: 700;
         color: #000;
         display: block;
-        @media (max-width: 1024px) {
-            display: none;
-        }
     }
 </style>

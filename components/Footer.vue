@@ -1,7 +1,7 @@
 <template>
     <div class="footerContainer">
         <div class="footerText">
-            ©Copyright. The Kanawa Company Limited 2002-2006. All rights reserved
+            ©Copyright. Kanawa Group 2022. All rights reserved
         </div>
     </div>
 </template>
