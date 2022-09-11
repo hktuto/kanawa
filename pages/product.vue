@@ -16,19 +16,19 @@
   import VueEasyLightbox from 'vue-easy-lightbox'
   import 'vue-easy-lightbox/external-css/vue-easy-lightbox.css'
   const images = [
-    '/images/products/001Ana R.JPG',
-    '/images/products/002RainLi.JPG',
-    '/images/products/003RainLi.JPG',
-    '/images/products/004朱晨丽.JPG',
-    '/images/products/005RainkyWai.JPG',
-    '/images/products/ZD__3437.JPG',
-    '/images/products/ZD__3489.JPG',
-    '/images/products/ZD__3595.JPG',
-    '/images/products/ZD__3798.JPG',
-    '/images/products/ZD__3937.JPG',
-    '/images/products/ZD__4151.JPG',
-    '/images/products/ZD__4590.JPG',
-    '/images/products/ZD__4646.JPG'
+    '/images/products/001Ana R.jpg',
+    '/images/products/002RainLi.jpg',
+    '/images/products/003RainLi.jpg',
+    '/images/products/004朱晨丽.jpg',
+    '/images/products/005RainkyWai.jpg',
+    '/images/products/ZD__3437.jpg',
+    '/images/products/ZD__3489.jpg',
+    '/images/products/ZD__3595.jpg',
+    '/images/products/ZD__3798.jpg',
+    '/images/products/ZD__3937.jpg',
+    '/images/products/ZD__4151.jpg',
+    '/images/products/ZD__4590.jpg',
+    '/images/products/ZD__4646.jpg'
   ]
 
   const visibleRef = ref(false);
