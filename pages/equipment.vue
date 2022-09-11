@@ -51,12 +51,12 @@
     const modules = [ Autoplay];
   
     const slides = [
-      'images/07.jpg',
-      'images/08.jpg',
-      'images/09.jpg',
-      'images/10.jpg',
-      'images/11.jpg',
-      'images/12.jpg'
+      'images/07.JPG',
+      'images/08.JPG',
+      'images/09.JPG',
+      'images/10.JPG',
+      'images/11.JPG',
+      'images/12.JPG'
     ]
     const autoplay = {
         delay: 2000

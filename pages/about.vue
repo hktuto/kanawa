@@ -63,12 +63,12 @@ In addition, we have acquired a well-known clothing brand from overseas, "Brown 
     const modules = [ Autoplay];
   
     const slides = [
-      '/images/01.jpg',
-      '/images/02.jpg',
-      '/images/03.jpg',
-      '/images/04.jpg',
-      '/images/05.jpg',
-      '/images/06.jpg'
+      '/images/01.JPG',
+      '/images/02.JPG',
+      '/images/03.JPG',
+      '/images/04.JPG',
+      '/images/05.JPG',
+      '/images/06.JPG'
     ]
     const autoplay = {
         delay: 2000

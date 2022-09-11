@@ -50,7 +50,7 @@
 
 
 <script setup lang="ts">
-  const img1 = "images/15.jpg";
-  const img2 = "images/14.jpg";
-  const img3 = "images/13.jpg";
+  const img1 = "images/15.JPG";
+  const img2 = "images/14.JPG";
+  const img3 = "images/13.JPG";
 </script>
