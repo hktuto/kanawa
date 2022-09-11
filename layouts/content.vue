@@ -36,8 +36,7 @@
 			</td>
 		</tr>
 	</table></div>
-<p align="center"><font color="#333300"><span style="font-size: 7pt"><span lang="en">&copy;</span>Copyright.
-The Kanawa Company Limited 2002-2006. All rights reserved</span></font></p>
+<p align="center"><font color="#333300"><span style="font-size: 7pt">©Copyright. Kanawa Group 2022. All rights reserved</span></font></p>
 
 </div>
 </template>
