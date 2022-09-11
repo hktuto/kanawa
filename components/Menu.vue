@@ -42,28 +42,24 @@
     const smallerThanSm = breakpoints.smaller('sm')
     const menuItems = [
         {
-            label:"最新产品",
-            url:"http://www.kanawa.com.hk/new_product.htm",
+            label:"企業簡介",
+            url:"/about",
         },
         {
-            label:'男装',
-            url:"http://www.kanawa.com.hk/mens.htm"
+            label:'企業設備',
+            url:"/equipment"
         },
         {
-            label:'女装',
-            url:"http://www.kanawa.com.hk/womens.htm"
+            label:'產品展示',
+            url:"/product"
         },
         {
-            label:'童装',
-            url:"http://www.kanawa.com.hk/children.htm"
+            label:'企業責任',
+            url:"/responsibility"
         },
         {
-            label:'公司简介',
-            url:"http://www.kanawa.com.hk/coprofile.htm"
-        },
-        {
-            label:'联络我们',
-            url:"http://www.kanawa.com.hk/contactus.htm"
+            label:'聯絡我們',
+            url:"/contact"
         },
     ]
         const isDrawerOpen = ref(false);
